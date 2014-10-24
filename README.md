@@ -5,10 +5,10 @@ Máquina de Turing Universal
 A Máquina de Turing Universal (MTU) consiste em uma Máquina de Turing (MT) que recebe como entrada uma outra Máquina de Turing e uma entrada para esta e a executa sob essa entrada. O projeto consiste em implementar uma Máquina de Turing Universal Determinística (além de ser determinística, a entrada será uma Máquina de Turing determinística) conforme a especificação que segue:
 
 # Símbolos
-[hashtag] - divisor de transições
-q1 - estado inicial
-q1..1 - outros estados (q11 é o segundo, q111 é o terceiro, etc.)
-f - estado final
+[hashtag] - divisor de transições.
+q1 - estado inicial.
+q1..1 - outros estados (q11 é o segundo, q111 é o terceiro, etc.).
+f - estado final.
 a1 - letra do alfabeto da MT.
 a1..1 - outras letras do alfabeto.
 R/L - direita/esquerda.
