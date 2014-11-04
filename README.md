@@ -15,6 +15,8 @@ f - estado final.
 
 a1 - letra do alfabeto da MT.
 
+b - caractere branco.
+
 a1..1 - outras letras do alfabeto.
 
 R/L - direita/esquerda.
@@ -23,7 +25,9 @@ $ - divisor entre a MT e a palavra a ser testada.
 
 A - onde está o cabeçote da MT.
 
-~ - Não altera nada.
+Y - conta o numero de 1 de uma letra para verificar as transições possiveis.
+
+~ - Não altera a fita.
 
 !simbolo - Executa enquanto não for o simbolo mensionado.
 
