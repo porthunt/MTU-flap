@@ -23,6 +23,10 @@ $ - divisor entre a MT e a palavra a ser testada.
 
 A - onde está o cabeçote da MT.
 
+~ - Não altera nada.
+
+!simbolo - Executa enquanto não for o simbolo mensionado.
+
 Caso a MT seja válida e a palavra funcione para a MT, deve ser colocado "#aceito" ao final da palavra recebida na MTU, exemplo:
 
 q1a1a11Rq11#q11a11a111Lf#q11a1a11Rq1$A11a111#aceito
