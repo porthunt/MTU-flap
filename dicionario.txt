@@ -1,0 +1,23 @@
+Dicionário de caracteres:
+
+C: Marcação de parada do shift. Controle de parada. (Mesma função de c).
+c: Caractere a ser removido. É transformado em branco.
+N: Marcação para transição de próximo estado.
+X: Marcação de a. Caso seja um shift após $, ele serve para mudar de posição. Caso seja na transição, serve para escrever o A na palavra (após $).
+I: Usado para marcar 1 no shift. (Mesma ideia do A).
+V: Quando tem que escrever B em um lugar branco.
+K: Usado para voltar e trocar os B e b por branco depois de escrever aceita/rejeita.
+T: Marcar o ultimo Y do cabeçote para poder colocar um Y após o mesmo.
+
+Bugs:
+
+Exemplo: q11a11a1Lf#q1a1a11Rq11$a1a11
+
+Ao fazer a primeira transição ele anda para a direita e fica a11A11.
+Depois disso ele vai para q11 e escreve a1, ficando: a1A1. No entanto, ao
+fazer andar para a esquerda ele deveria ficar A1a1 e finalizar, mas ele faz
+o shift e deixa a1Ba1 o que no fim deixa a1[]a1#aceita.
+
+Obs.:
+
+- No final (ao escrever aceita/rejeita) não é desmarcado o último Q.
