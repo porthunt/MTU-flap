@@ -15,6 +15,8 @@ f - estado final.
 
 a1 - letra do alfabeto da MT.
 
+b - caractere branco.
+
 a1..1 - outras letras do alfabeto.
 
 R/L - direita/esquerda.
@@ -22,6 +24,18 @@ R/L - direita/esquerda.
 $ - divisor entre a MT e a palavra a ser testada.
 
 A - onde está o cabeçote da MT.
+
+Y - conta o numero de 1 de uma letra para verificar as transições possiveis.
+
+l - variavel usada para representar o 1 e move-lo para a esquerda/direita.
+
+X - variavel usada para representar o a e move-lo para a esquerda/direita.
+
+B - variavel usada para representar o b e move-lo para a esquerda/direita.
+
+~ - Não altera a fita.
+
+!simbolo - Executa enquanto não for o simbolo mensionado.
 
 Caso a MT seja válida e a palavra funcione para a MT, deve ser colocado "#aceito" ao final da palavra recebida na MTU, exemplo:
 
